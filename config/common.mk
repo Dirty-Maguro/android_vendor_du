@@ -83,7 +83,7 @@ PRODUCT_PACKAGES += \
     Basic \
     PhaseBeam
 
-ifeq ($(FLOUNDER_NO_DSP),)
+ifeq ($(NO_DSP),)
 # DSPManager
 PRODUCT_PACKAGES += \
 else
